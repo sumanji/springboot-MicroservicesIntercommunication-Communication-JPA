@@ -5024,3 +5024,550 @@ org.eclipse.jgit.errors.MissingObjectException: Missing tree 104a28fe9dae965432e
 	at org.eclipse.core.internal.resources.Workspace.endOperation(Workspace.java:1503)
 	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:49)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.egit.core 4 0 2021-08-27 16:17:05.255
+!MESSAGE Missing tree 104a28fe9dae965432ed5ebe2d0a66d0bb861c21
+!STACK 0
+org.eclipse.jgit.errors.MissingObjectException: Missing tree 104a28fe9dae965432ed5ebe2d0a66d0bb861c21
+	at org.eclipse.jgit.internal.storage.file.WindowCursor.open(WindowCursor.java:137)
+	at org.eclipse.jgit.treewalk.CanonicalTreeParser.reset(CanonicalTreeParser.java:191)
+	at org.eclipse.jgit.treewalk.TreeWalk.parserFor(TreeWalk.java:1344)
+	at org.eclipse.jgit.treewalk.TreeWalk.addTree(TreeWalk.java:732)
+	at org.eclipse.egit.core.synchronize.GitSyncCache.loadDataFromGit(GitSyncCache.java:135)
+	at org.eclipse.egit.core.synchronize.GitSyncCache.getAllData(GitSyncCache.java:97)
+	at org.eclipse.egit.core.synchronize.GitSyncCache.mergeAllDataIntoCache(GitSyncCache.java:73)
+	at org.eclipse.egit.core.synchronize.GitResourceVariantTreeSubscriber.refresh(GitResourceVariantTreeSubscriber.java:236)
+	at org.eclipse.egit.core.synchronize.GitSubscriberMergeContext.refreshResources(GitSubscriberMergeContext.java:180)
+	at org.eclipse.egit.core.synchronize.GitSubscriberMergeContext.scanDeltaAndRefresh(GitSubscriberMergeContext.java:170)
+	at org.eclipse.egit.core.synchronize.GitSubscriberMergeContext.handleResourceChange(GitSubscriberMergeContext.java:154)
+	at org.eclipse.egit.core.synchronize.GitSubscriberMergeContext.lambda$1(GitSubscriberMergeContext.java:70)
+	at org.eclipse.core.internal.events.NotificationManager$1.run(NotificationManager.java:305)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:295)
+	at org.eclipse.core.internal.events.NotificationManager.broadcastChanges(NotificationManager.java:158)
+	at org.eclipse.core.internal.resources.Workspace.broadcastPostChange(Workspace.java:381)
+	at org.eclipse.core.internal.resources.Workspace.endOperation(Workspace.java:1503)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:49)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.egit.core 4 0 2021-08-27 16:17:07.921
+!MESSAGE Missing tree 104a28fe9dae965432ed5ebe2d0a66d0bb861c21
+!STACK 0
+org.eclipse.jgit.errors.MissingObjectException: Missing tree 104a28fe9dae965432ed5ebe2d0a66d0bb861c21
+	at org.eclipse.jgit.internal.storage.file.WindowCursor.open(WindowCursor.java:137)
+	at org.eclipse.jgit.treewalk.CanonicalTreeParser.reset(CanonicalTreeParser.java:191)
+	at org.eclipse.jgit.treewalk.TreeWalk.parserFor(TreeWalk.java:1344)
+	at org.eclipse.jgit.treewalk.TreeWalk.addTree(TreeWalk.java:732)
+	at org.eclipse.egit.core.synchronize.GitSyncCache.loadDataFromGit(GitSyncCache.java:135)
+	at org.eclipse.egit.core.synchronize.GitSyncCache.getAllData(GitSyncCache.java:97)
+	at org.eclipse.egit.core.synchronize.GitSyncCache.mergeAllDataIntoCache(GitSyncCache.java:73)
+	at org.eclipse.egit.core.synchronize.GitResourceVariantTreeSubscriber.refresh(GitResourceVariantTreeSubscriber.java:236)
+	at org.eclipse.egit.core.synchronize.GitSubscriberMergeContext.refreshResources(GitSubscriberMergeContext.java:180)
+	at org.eclipse.egit.core.synchronize.GitSubscriberMergeContext.scanDeltaAndRefresh(GitSubscriberMergeContext.java:170)
+	at org.eclipse.egit.core.synchronize.GitSubscriberMergeContext.handleResourceChange(GitSubscriberMergeContext.java:154)
+	at org.eclipse.egit.core.synchronize.GitSubscriberMergeContext.lambda$1(GitSubscriberMergeContext.java:70)
+	at org.eclipse.core.internal.events.NotificationManager$1.run(NotificationManager.java:305)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:295)
+	at org.eclipse.core.internal.events.NotificationManager.broadcastChanges(NotificationManager.java:158)
+	at org.eclipse.core.internal.resources.Workspace.broadcastPostChange(Workspace.java:381)
+	at org.eclipse.core.internal.resources.Workspace.endOperation(Workspace.java:1503)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:49)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.egit.core 4 0 2021-08-27 16:17:08.533
+!MESSAGE Missing tree 104a28fe9dae965432ed5ebe2d0a66d0bb861c21
+!STACK 0
+org.eclipse.jgit.errors.MissingObjectException: Missing tree 104a28fe9dae965432ed5ebe2d0a66d0bb861c21
+	at org.eclipse.jgit.internal.storage.file.WindowCursor.open(WindowCursor.java:137)
+	at org.eclipse.jgit.treewalk.CanonicalTreeParser.reset(CanonicalTreeParser.java:191)
+	at org.eclipse.jgit.treewalk.TreeWalk.parserFor(TreeWalk.java:1344)
+	at org.eclipse.jgit.treewalk.TreeWalk.addTree(TreeWalk.java:732)
+	at org.eclipse.egit.core.synchronize.GitSyncCache.loadDataFromGit(GitSyncCache.java:135)
+	at org.eclipse.egit.core.synchronize.GitSyncCache.getAllData(GitSyncCache.java:97)
+	at org.eclipse.egit.core.synchronize.GitSyncCache.mergeAllDataIntoCache(GitSyncCache.java:73)
+	at org.eclipse.egit.core.synchronize.GitResourceVariantTreeSubscriber.refresh(GitResourceVariantTreeSubscriber.java:236)
+	at org.eclipse.egit.core.synchronize.GitSubscriberMergeContext.refreshResources(GitSubscriberMergeContext.java:180)
+	at org.eclipse.egit.core.synchronize.GitSubscriberMergeContext.scanDeltaAndRefresh(GitSubscriberMergeContext.java:170)
+	at org.eclipse.egit.core.synchronize.GitSubscriberMergeContext.handleResourceChange(GitSubscriberMergeContext.java:154)
+	at org.eclipse.egit.core.synchronize.GitSubscriberMergeContext.lambda$1(GitSubscriberMergeContext.java:70)
+	at org.eclipse.core.internal.events.NotificationManager$1.run(NotificationManager.java:305)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:295)
+	at org.eclipse.core.internal.events.NotificationManager.broadcastChanges(NotificationManager.java:158)
+	at org.eclipse.core.internal.resources.Workspace.broadcastPostChange(Workspace.java:381)
+	at org.eclipse.core.internal.resources.Workspace.endOperation(Workspace.java:1503)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:49)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.egit.core 4 0 2021-08-27 16:17:09.634
+!MESSAGE Missing tree 104a28fe9dae965432ed5ebe2d0a66d0bb861c21
+!STACK 0
+org.eclipse.jgit.errors.MissingObjectException: Missing tree 104a28fe9dae965432ed5ebe2d0a66d0bb861c21
+	at org.eclipse.jgit.internal.storage.file.WindowCursor.open(WindowCursor.java:137)
+	at org.eclipse.jgit.treewalk.CanonicalTreeParser.reset(CanonicalTreeParser.java:191)
+	at org.eclipse.jgit.treewalk.TreeWalk.parserFor(TreeWalk.java:1344)
+	at org.eclipse.jgit.treewalk.TreeWalk.addTree(TreeWalk.java:732)
+	at org.eclipse.egit.core.synchronize.GitSyncCache.loadDataFromGit(GitSyncCache.java:135)
+	at org.eclipse.egit.core.synchronize.GitSyncCache.getAllData(GitSyncCache.java:97)
+	at org.eclipse.egit.core.synchronize.GitSyncCache.mergeAllDataIntoCache(GitSyncCache.java:73)
+	at org.eclipse.egit.core.synchronize.GitResourceVariantTreeSubscriber.refresh(GitResourceVariantTreeSubscriber.java:236)
+	at org.eclipse.egit.core.synchronize.GitSubscriberMergeContext.refreshResources(GitSubscriberMergeContext.java:180)
+	at org.eclipse.egit.core.synchronize.GitSubscriberMergeContext.scanDeltaAndRefresh(GitSubscriberMergeContext.java:170)
+	at org.eclipse.egit.core.synchronize.GitSubscriberMergeContext.handleResourceChange(GitSubscriberMergeContext.java:154)
+	at org.eclipse.egit.core.synchronize.GitSubscriberMergeContext.lambda$1(GitSubscriberMergeContext.java:70)
+	at org.eclipse.core.internal.events.NotificationManager$1.run(NotificationManager.java:305)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:295)
+	at org.eclipse.core.internal.events.NotificationManager.broadcastChanges(NotificationManager.java:158)
+	at org.eclipse.core.internal.resources.Workspace.broadcastPostChange(Workspace.java:381)
+	at org.eclipse.core.internal.resources.Workspace.endOperation(Workspace.java:1503)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:49)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY Activator 2 0 2021-08-27 16:17:10.453
+!MESSAGE Exception: File not found: C:\Users\Suman\git\springboot-MicroservicesIntercommunication-Communication-JPA\EurekaServer\src\main\java\com\example\demo\EurekaServerApplication.java.
+!STACK 1
+Java Model Exception: Core Exception [code 368] File not found: C:\Users\Suman\git\springboot-MicroservicesIntercommunication-Communication-JPA\EurekaServer\src\main\java\com\example\demo\EurekaServerApplication.java.
+	at org.eclipse.jdt.internal.core.util.Util.getResourceContentsAsCharArray(Util.java:1214)
+	at org.eclipse.jdt.internal.core.util.Util.getResourceContentsAsCharArray(Util.java:1186)
+	at org.eclipse.jdt.internal.core.CompilationUnit.openBuffer(CompilationUnit.java:1218)
+	at org.eclipse.jdt.internal.core.CompilationUnit.buildStructure(CompilationUnit.java:114)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:266)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:597)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:327)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:313)
+	at org.eclipse.jdt.internal.core.JavaElement.getChildren(JavaElement.java:268)
+	at org.eclipse.jdt.internal.core.JavaElement.getChildrenOfType(JavaElement.java:282)
+	at org.eclipse.jdt.internal.core.CompilationUnit.getTypes(CompilationUnit.java:969)
+	at org.eclipse.jdt.internal.core.CompilationUnit.getAllTypes(CompilationUnit.java:635)
+	at org.springframework.ide.eclipse.boot.validation.rules.MissingConfigurationProcessorRule$ValidationVisitor.visit(MissingConfigurationProcessorRule.java:148)
+	at org.springframework.ide.eclipse.boot.validation.rules.MissingConfigurationProcessorRule.validate(MissingConfigurationProcessorRule.java:249)
+	at org.springframework.ide.eclipse.boot.validation.framework.SpringBootProjectBuilder.build(SpringBootProjectBuilder.java:100)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:846)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:229)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:277)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:330)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:333)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:385)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:406)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:154)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:244)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: org.eclipse.core.internal.resources.ResourceException: File not found: C:\Users\Suman\git\springboot-MicroservicesIntercommunication-Communication-JPA\EurekaServer\src\main\java\com\example\demo\EurekaServerApplication.java.
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.read(FileSystemResourceManager.java:835)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:275)
+	at org.eclipse.jdt.internal.core.util.Util.getResourceContentsAsCharArray(Util.java:1212)
+	... 26 more
+Caused by: java.lang.Exception: File not found: C:\Users\Suman\git\springboot-MicroservicesIntercommunication-Communication-JPA\EurekaServer\src\main\java\com\example\demo\EurekaServerApplication.java.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	... 29 more
+Caused by: org.eclipse.core.internal.resources.ResourceException(/EurekaServer/src/main/java/com/example/demo/EurekaServerApplication.java)[368]: java.lang.Exception: File not found: C:\Users\Suman\git\springboot-MicroservicesIntercommunication-Communication-JPA\EurekaServer\src\main\java\com\example\demo\EurekaServerApplication.java.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.read(FileSystemResourceManager.java:835)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:275)
+	at org.eclipse.jdt.internal.core.util.Util.getResourceContentsAsCharArray(Util.java:1212)
+	at org.eclipse.jdt.internal.core.util.Util.getResourceContentsAsCharArray(Util.java:1186)
+	at org.eclipse.jdt.internal.core.CompilationUnit.openBuffer(CompilationUnit.java:1218)
+	at org.eclipse.jdt.internal.core.CompilationUnit.buildStructure(CompilationUnit.java:114)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:266)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:597)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:327)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:313)
+	at org.eclipse.jdt.internal.core.JavaElement.getChildren(JavaElement.java:268)
+	at org.eclipse.jdt.internal.core.JavaElement.getChildrenOfType(JavaElement.java:282)
+	at org.eclipse.jdt.internal.core.CompilationUnit.getTypes(CompilationUnit.java:969)
+	at org.eclipse.jdt.internal.core.CompilationUnit.getAllTypes(CompilationUnit.java:635)
+	at org.springframework.ide.eclipse.boot.validation.rules.MissingConfigurationProcessorRule$ValidationVisitor.visit(MissingConfigurationProcessorRule.java:148)
+	at org.springframework.ide.eclipse.boot.validation.rules.MissingConfigurationProcessorRule.validate(MissingConfigurationProcessorRule.java:249)
+	at org.springframework.ide.eclipse.boot.validation.framework.SpringBootProjectBuilder.build(SpringBootProjectBuilder.java:100)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:846)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:229)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:277)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:330)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:333)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:385)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:406)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:154)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:244)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.jdt.core 4 969 2021-08-27 16:17:10.458
+!MESSAGE File not found: C:\Users\Suman\git\springboot-MicroservicesIntercommunication-Communication-JPA\EurekaServer\src\main\java\com\example\demo\EurekaServerApplication.java.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException(/EurekaServer/src/main/java/com/example/demo/EurekaServerApplication.java)[368]: java.lang.Exception: File not found: C:\Users\Suman\git\springboot-MicroservicesIntercommunication-Communication-JPA\EurekaServer\src\main\java\com\example\demo\EurekaServerApplication.java.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.read(FileSystemResourceManager.java:835)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:275)
+	at org.eclipse.jdt.internal.core.util.Util.getResourceContentsAsCharArray(Util.java:1212)
+	at org.eclipse.jdt.internal.core.util.Util.getResourceContentsAsCharArray(Util.java:1186)
+	at org.eclipse.jdt.internal.core.CompilationUnit.openBuffer(CompilationUnit.java:1218)
+	at org.eclipse.jdt.internal.core.CompilationUnit.buildStructure(CompilationUnit.java:114)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:266)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:597)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:327)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:313)
+	at org.eclipse.jdt.internal.core.JavaElement.getChildren(JavaElement.java:268)
+	at org.eclipse.jdt.internal.core.JavaElement.getChildrenOfType(JavaElement.java:282)
+	at org.eclipse.jdt.internal.core.CompilationUnit.getTypes(CompilationUnit.java:969)
+	at org.eclipse.jdt.internal.core.CompilationUnit.getAllTypes(CompilationUnit.java:635)
+	at org.springframework.ide.eclipse.boot.validation.rules.MissingConfigurationProcessorRule$ValidationVisitor.visit(MissingConfigurationProcessorRule.java:148)
+	at org.springframework.ide.eclipse.boot.validation.rules.MissingConfigurationProcessorRule.validate(MissingConfigurationProcessorRule.java:249)
+	at org.springframework.ide.eclipse.boot.validation.framework.SpringBootProjectBuilder.build(SpringBootProjectBuilder.java:100)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:846)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:229)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:277)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:330)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:333)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:385)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:406)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:154)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:244)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 2 org.eclipse.core.resources 4 368 2021-08-27 16:17:10.458
+!MESSAGE File not found: C:\Users\Suman\git\springboot-MicroservicesIntercommunication-Communication-JPA\EurekaServer\src\main\java\com\example\demo\EurekaServerApplication.java.
+!STACK 0
+java.lang.Exception: File not found: C:\Users\Suman\git\springboot-MicroservicesIntercommunication-Communication-JPA\EurekaServer\src\main\java\com\example\demo\EurekaServerApplication.java.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.read(FileSystemResourceManager.java:835)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:275)
+	at org.eclipse.jdt.internal.core.util.Util.getResourceContentsAsCharArray(Util.java:1212)
+	at org.eclipse.jdt.internal.core.util.Util.getResourceContentsAsCharArray(Util.java:1186)
+	at org.eclipse.jdt.internal.core.CompilationUnit.openBuffer(CompilationUnit.java:1218)
+	at org.eclipse.jdt.internal.core.CompilationUnit.buildStructure(CompilationUnit.java:114)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:266)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:597)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:327)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:313)
+	at org.eclipse.jdt.internal.core.JavaElement.getChildren(JavaElement.java:268)
+	at org.eclipse.jdt.internal.core.JavaElement.getChildrenOfType(JavaElement.java:282)
+	at org.eclipse.jdt.internal.core.CompilationUnit.getTypes(CompilationUnit.java:969)
+	at org.eclipse.jdt.internal.core.CompilationUnit.getAllTypes(CompilationUnit.java:635)
+	at org.springframework.ide.eclipse.boot.validation.rules.MissingConfigurationProcessorRule$ValidationVisitor.visit(MissingConfigurationProcessorRule.java:148)
+	at org.springframework.ide.eclipse.boot.validation.rules.MissingConfigurationProcessorRule.validate(MissingConfigurationProcessorRule.java:249)
+	at org.springframework.ide.eclipse.boot.validation.framework.SpringBootProjectBuilder.build(SpringBootProjectBuilder.java:100)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:846)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:229)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:277)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:330)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:333)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:385)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:406)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:154)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:244)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY Activator 2 0 2021-08-27 16:17:10.460
+!MESSAGE Exception: File not found: C:\Users\Suman\git\springboot-MicroservicesIntercommunication-Communication-JPA\EurekaServer\src\test\java\com\example\demo\EurekaServerApplicationTests.java.
+!STACK 1
+Java Model Exception: Core Exception [code 368] File not found: C:\Users\Suman\git\springboot-MicroservicesIntercommunication-Communication-JPA\EurekaServer\src\test\java\com\example\demo\EurekaServerApplicationTests.java.
+	at org.eclipse.jdt.internal.core.util.Util.getResourceContentsAsCharArray(Util.java:1214)
+	at org.eclipse.jdt.internal.core.util.Util.getResourceContentsAsCharArray(Util.java:1186)
+	at org.eclipse.jdt.internal.core.CompilationUnit.openBuffer(CompilationUnit.java:1218)
+	at org.eclipse.jdt.internal.core.CompilationUnit.buildStructure(CompilationUnit.java:114)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:266)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:597)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:327)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:313)
+	at org.eclipse.jdt.internal.core.JavaElement.getChildren(JavaElement.java:268)
+	at org.eclipse.jdt.internal.core.JavaElement.getChildrenOfType(JavaElement.java:282)
+	at org.eclipse.jdt.internal.core.CompilationUnit.getTypes(CompilationUnit.java:969)
+	at org.eclipse.jdt.internal.core.CompilationUnit.getAllTypes(CompilationUnit.java:635)
+	at org.springframework.ide.eclipse.boot.validation.rules.MissingConfigurationProcessorRule$ValidationVisitor.visit(MissingConfigurationProcessorRule.java:148)
+	at org.springframework.ide.eclipse.boot.validation.rules.MissingConfigurationProcessorRule.validate(MissingConfigurationProcessorRule.java:249)
+	at org.springframework.ide.eclipse.boot.validation.framework.SpringBootProjectBuilder.build(SpringBootProjectBuilder.java:100)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:846)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:229)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:277)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:330)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:333)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:385)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:406)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:154)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:244)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: org.eclipse.core.internal.resources.ResourceException: File not found: C:\Users\Suman\git\springboot-MicroservicesIntercommunication-Communication-JPA\EurekaServer\src\test\java\com\example\demo\EurekaServerApplicationTests.java.
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.read(FileSystemResourceManager.java:835)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:275)
+	at org.eclipse.jdt.internal.core.util.Util.getResourceContentsAsCharArray(Util.java:1212)
+	... 26 more
+Caused by: java.lang.Exception: File not found: C:\Users\Suman\git\springboot-MicroservicesIntercommunication-Communication-JPA\EurekaServer\src\test\java\com\example\demo\EurekaServerApplicationTests.java.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	... 29 more
+Caused by: org.eclipse.core.internal.resources.ResourceException(/EurekaServer/src/test/java/com/example/demo/EurekaServerApplicationTests.java)[368]: java.lang.Exception: File not found: C:\Users\Suman\git\springboot-MicroservicesIntercommunication-Communication-JPA\EurekaServer\src\test\java\com\example\demo\EurekaServerApplicationTests.java.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.read(FileSystemResourceManager.java:835)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:275)
+	at org.eclipse.jdt.internal.core.util.Util.getResourceContentsAsCharArray(Util.java:1212)
+	at org.eclipse.jdt.internal.core.util.Util.getResourceContentsAsCharArray(Util.java:1186)
+	at org.eclipse.jdt.internal.core.CompilationUnit.openBuffer(CompilationUnit.java:1218)
+	at org.eclipse.jdt.internal.core.CompilationUnit.buildStructure(CompilationUnit.java:114)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:266)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:597)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:327)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:313)
+	at org.eclipse.jdt.internal.core.JavaElement.getChildren(JavaElement.java:268)
+	at org.eclipse.jdt.internal.core.JavaElement.getChildrenOfType(JavaElement.java:282)
+	at org.eclipse.jdt.internal.core.CompilationUnit.getTypes(CompilationUnit.java:969)
+	at org.eclipse.jdt.internal.core.CompilationUnit.getAllTypes(CompilationUnit.java:635)
+	at org.springframework.ide.eclipse.boot.validation.rules.MissingConfigurationProcessorRule$ValidationVisitor.visit(MissingConfigurationProcessorRule.java:148)
+	at org.springframework.ide.eclipse.boot.validation.rules.MissingConfigurationProcessorRule.validate(MissingConfigurationProcessorRule.java:249)
+	at org.springframework.ide.eclipse.boot.validation.framework.SpringBootProjectBuilder.build(SpringBootProjectBuilder.java:100)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:846)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:229)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:277)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:330)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:333)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:385)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:406)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:154)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:244)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.jdt.core 4 969 2021-08-27 16:17:10.460
+!MESSAGE File not found: C:\Users\Suman\git\springboot-MicroservicesIntercommunication-Communication-JPA\EurekaServer\src\test\java\com\example\demo\EurekaServerApplicationTests.java.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException(/EurekaServer/src/test/java/com/example/demo/EurekaServerApplicationTests.java)[368]: java.lang.Exception: File not found: C:\Users\Suman\git\springboot-MicroservicesIntercommunication-Communication-JPA\EurekaServer\src\test\java\com\example\demo\EurekaServerApplicationTests.java.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.read(FileSystemResourceManager.java:835)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:275)
+	at org.eclipse.jdt.internal.core.util.Util.getResourceContentsAsCharArray(Util.java:1212)
+	at org.eclipse.jdt.internal.core.util.Util.getResourceContentsAsCharArray(Util.java:1186)
+	at org.eclipse.jdt.internal.core.CompilationUnit.openBuffer(CompilationUnit.java:1218)
+	at org.eclipse.jdt.internal.core.CompilationUnit.buildStructure(CompilationUnit.java:114)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:266)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:597)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:327)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:313)
+	at org.eclipse.jdt.internal.core.JavaElement.getChildren(JavaElement.java:268)
+	at org.eclipse.jdt.internal.core.JavaElement.getChildrenOfType(JavaElement.java:282)
+	at org.eclipse.jdt.internal.core.CompilationUnit.getTypes(CompilationUnit.java:969)
+	at org.eclipse.jdt.internal.core.CompilationUnit.getAllTypes(CompilationUnit.java:635)
+	at org.springframework.ide.eclipse.boot.validation.rules.MissingConfigurationProcessorRule$ValidationVisitor.visit(MissingConfigurationProcessorRule.java:148)
+	at org.springframework.ide.eclipse.boot.validation.rules.MissingConfigurationProcessorRule.validate(MissingConfigurationProcessorRule.java:249)
+	at org.springframework.ide.eclipse.boot.validation.framework.SpringBootProjectBuilder.build(SpringBootProjectBuilder.java:100)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:846)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:229)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:277)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:330)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:333)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:385)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:406)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:154)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:244)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 2 org.eclipse.core.resources 4 368 2021-08-27 16:17:10.460
+!MESSAGE File not found: C:\Users\Suman\git\springboot-MicroservicesIntercommunication-Communication-JPA\EurekaServer\src\test\java\com\example\demo\EurekaServerApplicationTests.java.
+!STACK 0
+java.lang.Exception: File not found: C:\Users\Suman\git\springboot-MicroservicesIntercommunication-Communication-JPA\EurekaServer\src\test\java\com\example\demo\EurekaServerApplicationTests.java.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.read(FileSystemResourceManager.java:835)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:275)
+	at org.eclipse.jdt.internal.core.util.Util.getResourceContentsAsCharArray(Util.java:1212)
+	at org.eclipse.jdt.internal.core.util.Util.getResourceContentsAsCharArray(Util.java:1186)
+	at org.eclipse.jdt.internal.core.CompilationUnit.openBuffer(CompilationUnit.java:1218)
+	at org.eclipse.jdt.internal.core.CompilationUnit.buildStructure(CompilationUnit.java:114)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:266)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:597)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:327)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:313)
+	at org.eclipse.jdt.internal.core.JavaElement.getChildren(JavaElement.java:268)
+	at org.eclipse.jdt.internal.core.JavaElement.getChildrenOfType(JavaElement.java:282)
+	at org.eclipse.jdt.internal.core.CompilationUnit.getTypes(CompilationUnit.java:969)
+	at org.eclipse.jdt.internal.core.CompilationUnit.getAllTypes(CompilationUnit.java:635)
+	at org.springframework.ide.eclipse.boot.validation.rules.MissingConfigurationProcessorRule$ValidationVisitor.visit(MissingConfigurationProcessorRule.java:148)
+	at org.springframework.ide.eclipse.boot.validation.rules.MissingConfigurationProcessorRule.validate(MissingConfigurationProcessorRule.java:249)
+	at org.springframework.ide.eclipse.boot.validation.framework.SpringBootProjectBuilder.build(SpringBootProjectBuilder.java:100)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:846)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:229)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:277)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:330)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:333)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:385)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:406)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:154)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:244)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.egit.core 4 0 2021-08-27 16:17:10.468
+!MESSAGE Missing tree 104a28fe9dae965432ed5ebe2d0a66d0bb861c21
+!STACK 0
+org.eclipse.jgit.errors.MissingObjectException: Missing tree 104a28fe9dae965432ed5ebe2d0a66d0bb861c21
+	at org.eclipse.jgit.internal.storage.file.WindowCursor.open(WindowCursor.java:137)
+	at org.eclipse.jgit.treewalk.CanonicalTreeParser.reset(CanonicalTreeParser.java:191)
+	at org.eclipse.jgit.treewalk.TreeWalk.parserFor(TreeWalk.java:1344)
+	at org.eclipse.jgit.treewalk.TreeWalk.addTree(TreeWalk.java:732)
+	at org.eclipse.egit.core.synchronize.GitSyncCache.loadDataFromGit(GitSyncCache.java:135)
+	at org.eclipse.egit.core.synchronize.GitSyncCache.getAllData(GitSyncCache.java:97)
+	at org.eclipse.egit.core.synchronize.GitSyncCache.mergeAllDataIntoCache(GitSyncCache.java:73)
+	at org.eclipse.egit.core.synchronize.GitResourceVariantTreeSubscriber.refresh(GitResourceVariantTreeSubscriber.java:236)
+	at org.eclipse.egit.core.synchronize.GitSubscriberMergeContext.refreshResources(GitSubscriberMergeContext.java:180)
+	at org.eclipse.egit.core.synchronize.GitSubscriberMergeContext.scanDeltaAndRefresh(GitSubscriberMergeContext.java:170)
+	at org.eclipse.egit.core.synchronize.GitSubscriberMergeContext.handleResourceChange(GitSubscriberMergeContext.java:154)
+	at org.eclipse.egit.core.synchronize.GitSubscriberMergeContext.lambda$1(GitSubscriberMergeContext.java:70)
+	at org.eclipse.core.internal.events.NotificationManager$1.run(NotificationManager.java:305)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:295)
+	at org.eclipse.core.internal.events.NotificationManager.broadcastChanges(NotificationManager.java:158)
+	at org.eclipse.core.internal.resources.Workspace.broadcastPostChange(Workspace.java:381)
+	at org.eclipse.core.internal.resources.Workspace.endOperation(Workspace.java:1503)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:169)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:244)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.egit.core 4 0 2021-08-27 16:17:10.702
+!MESSAGE Missing tree 104a28fe9dae965432ed5ebe2d0a66d0bb861c21
+!STACK 0
+org.eclipse.jgit.errors.MissingObjectException: Missing tree 104a28fe9dae965432ed5ebe2d0a66d0bb861c21
+	at org.eclipse.jgit.internal.storage.file.WindowCursor.open(WindowCursor.java:137)
+	at org.eclipse.jgit.treewalk.CanonicalTreeParser.reset(CanonicalTreeParser.java:191)
+	at org.eclipse.jgit.treewalk.TreeWalk.parserFor(TreeWalk.java:1344)
+	at org.eclipse.jgit.treewalk.TreeWalk.addTree(TreeWalk.java:732)
+	at org.eclipse.egit.core.synchronize.GitSyncCache.loadDataFromGit(GitSyncCache.java:135)
+	at org.eclipse.egit.core.synchronize.GitSyncCache.getAllData(GitSyncCache.java:97)
+	at org.eclipse.egit.core.synchronize.GitSyncCache.mergeAllDataIntoCache(GitSyncCache.java:73)
+	at org.eclipse.egit.core.synchronize.GitResourceVariantTreeSubscriber.refresh(GitResourceVariantTreeSubscriber.java:236)
+	at org.eclipse.egit.core.synchronize.GitSubscriberMergeContext.refreshResources(GitSubscriberMergeContext.java:180)
+	at org.eclipse.egit.core.synchronize.GitSubscriberMergeContext.scanDeltaAndRefresh(GitSubscriberMergeContext.java:170)
+	at org.eclipse.egit.core.synchronize.GitSubscriberMergeContext.handleResourceChange(GitSubscriberMergeContext.java:154)
+	at org.eclipse.egit.core.synchronize.GitSubscriberMergeContext.lambda$1(GitSubscriberMergeContext.java:70)
+	at org.eclipse.core.internal.events.NotificationManager$1.run(NotificationManager.java:305)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:295)
+	at org.eclipse.core.internal.events.NotificationManager.broadcastChanges(NotificationManager.java:158)
+	at org.eclipse.core.internal.resources.Workspace.broadcastPostChange(Workspace.java:381)
+	at org.eclipse.core.internal.resources.Workspace.endOperation(Workspace.java:1503)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:49)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.egit.core 4 0 2021-08-27 16:17:11.491
+!MESSAGE Missing tree 104a28fe9dae965432ed5ebe2d0a66d0bb861c21
+!STACK 0
+org.eclipse.jgit.errors.MissingObjectException: Missing tree 104a28fe9dae965432ed5ebe2d0a66d0bb861c21
+	at org.eclipse.jgit.internal.storage.file.WindowCursor.open(WindowCursor.java:137)
+	at org.eclipse.jgit.treewalk.CanonicalTreeParser.reset(CanonicalTreeParser.java:191)
+	at org.eclipse.jgit.treewalk.TreeWalk.parserFor(TreeWalk.java:1344)
+	at org.eclipse.jgit.treewalk.TreeWalk.addTree(TreeWalk.java:732)
+	at org.eclipse.egit.core.synchronize.GitSyncCache.loadDataFromGit(GitSyncCache.java:135)
+	at org.eclipse.egit.core.synchronize.GitSyncCache.getAllData(GitSyncCache.java:97)
+	at org.eclipse.egit.core.synchronize.GitSyncCache.mergeAllDataIntoCache(GitSyncCache.java:73)
+	at org.eclipse.egit.core.synchronize.GitResourceVariantTreeSubscriber.refresh(GitResourceVariantTreeSubscriber.java:236)
+	at org.eclipse.egit.core.synchronize.GitSubscriberMergeContext.refreshResources(GitSubscriberMergeContext.java:180)
+	at org.eclipse.egit.core.synchronize.GitSubscriberMergeContext.scanDeltaAndRefresh(GitSubscriberMergeContext.java:170)
+	at org.eclipse.egit.core.synchronize.GitSubscriberMergeContext.handleResourceChange(GitSubscriberMergeContext.java:154)
+	at org.eclipse.egit.core.synchronize.GitSubscriberMergeContext.lambda$1(GitSubscriberMergeContext.java:70)
+	at org.eclipse.core.internal.events.NotificationManager$1.run(NotificationManager.java:305)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:295)
+	at org.eclipse.core.internal.events.NotificationManager.broadcastChanges(NotificationManager.java:158)
+	at org.eclipse.core.internal.resources.Workspace.broadcastPostChange(Workspace.java:381)
+	at org.eclipse.core.internal.resources.Workspace.endOperation(Workspace.java:1503)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:169)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:244)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-27 16:20:09.494
+!MESSAGE Entering DelegatingStreamConnectionProvider()
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-27 16:20:09.495
+!MESSAGE DelegatingStreamConnectionProvider classloader = org.eclipse.osgi.internal.loader.EquinoxClassLoader@74fb06f8[org.springframework.tooling.boot.ls:1.27.0.202108151936(id=559)]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-27 16:20:09.505
+!MESSAGE SpringBootLanguageServer exists!
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-27 16:20:09.649
+!MESSAGE Instantiating ReusableClasspathListenerHandler
+
+!ENTRY org.eclipse.jface 2 0 2021-08-27 16:20:09.910
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2021-08-27 16:20:09.910
+!MESSAGE A conflict occurred for CTRL+SHIFT+C:
+Binding(CTRL+SHIFT+C,
+	ParameterizedCommand(Command(org.eclipse.tm4e.languageconfiguration.togglelinecommentcommand,Toggle Line Comment,
+		,
+		Category(org.eclipse.tm4e.languageconfiguration.category,TM4E Language Configuration,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@35df31e1,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.textEditorScope,,,system)
+Binding(CTRL+SHIFT+C,
+	ParameterizedCommand(Command(org.springframework.tooling.boot.ls.ToggleComment,Toggle Comment,
+		,
+		Category(org.springframework.ide.eclipse.commands,Spring Generic Text Editor,Spring Language Server Commands,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@4bd5697b,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.textEditorScope,,,system)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-27 16:20:13.307
+!MESSAGE Boot LS startup time from start to initialized: 3791ms
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-27 16:20:13.401
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.JBkIbrEgisBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-27 16:20:13.405
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-27 16:20:13.408
+!MESSAGE Scheduling initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-27 16:20:13.409
+!MESSAGE Scheduling initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-27 16:20:13.410
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-27 16:20:13.411
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.JBkIbrEg => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-27 16:20:13.424
+!MESSAGE classpath=136 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-27 16:20:13.432
+!MESSAGE buffering callback sts4.classpath.JBkIbrEg EurekaServer false 136
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-27 16:20:13.433
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-27 16:20:13.446
+!MESSAGE classpath=132 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-27 16:20:13.454
+!MESSAGE buffering callback sts4.classpath.JBkIbrEg Diagnosis false 132
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-27 16:20:13.455
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-27 16:20:13.467
+!MESSAGE classpath=153 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-27 16:20:13.474
+!MESSAGE buffering callback sts4.classpath.JBkIbrEg PatientService false 153
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-27 16:20:13.475
+!MESSAGE executing callback sts4.classpath.JBkIbrEg 3 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-27 16:20:13.972
+!MESSAGE executing callback sts4.classpath.JBkIbrEg SUCCESS [done]

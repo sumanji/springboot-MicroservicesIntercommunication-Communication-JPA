@@ -1,5 +1,5 @@
-GitRepositoriesView.GitDirectories=
-GitRepositoriesView.GitDirectories.relative=
+GitRepositoriesView.GitDirectories=C\:\\Users\\Suman\\Desktop\\microservice\\.git;
+GitRepositoriesView.GitDirectories.relative=.git;
 RepositoryGroups.uuids=
 RepositorySearchDialogSearchPath=C\:\\Users\\Suman\\git
 core_autoIgnoreDerivedResources=false
