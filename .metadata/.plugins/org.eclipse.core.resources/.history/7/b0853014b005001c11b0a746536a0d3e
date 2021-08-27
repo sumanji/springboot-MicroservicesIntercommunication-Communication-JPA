@@ -1,0 +1,46 @@
+package com.example.demo.model;
+
+import org.springframework.beans.factory.annotation.Value;
+
+public class Diagnosis {
+
+	private int patientId;
+	private String report;
+	private String diagnosedFor;
+	@Value("${server.port}")
+	private int port;
+
+	public int getPatientId() {
+		return patientId;
+	}
+
+	public void setPatientId(int patientId) {
+		this.patientId = patientId;
+	}
+
+	public String getReport() {
+		return report;
+	}
+
+	public void setReport(String report) {
+		this.report = report;
+	}
+
+	public String getDiagnosedFor() {
+		return diagnosedFor;
+	}
+
+	public void setDiagnosedFor(String diagnosedFor) {
+		this.diagnosedFor = diagnosedFor;
+	}
+	
+	@Override
+	public boolean equals(Diagnosis diagnosis) {
+	   boolean  flag= false;
+		if() {
+			
+		}
+		return flag;
+	}
+
+}

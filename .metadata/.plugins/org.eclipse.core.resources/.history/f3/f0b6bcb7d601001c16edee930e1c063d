@@ -1,0 +1,11 @@
+package com.example.demo.communicator;
+
+import org.springframework.cloud.openfeign.FeignClient;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PathVariable;
+
+@FeignClient(name = "diagnosis")
+public interface IDiagnosis {
+	@GetMapping("/{patientId}/diagnosis")
+	public String getPatientHealthStatus(@PathVariable(value = "patientId") String patientId);
+}

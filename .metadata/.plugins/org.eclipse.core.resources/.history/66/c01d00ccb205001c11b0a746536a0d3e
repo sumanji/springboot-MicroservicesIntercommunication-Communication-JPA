@@ -1,0 +1,24 @@
+package com.example.demo.service;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import org.springframework.stereotype.Service;
+
+import com.example.demo.model.Diagnosis;
+
+@Service
+public class DiagnosisService {
+
+	public List<Diagnosis> diagnosisReportlist = new ArrayList<Diagnosis>();
+
+	private Diagnosis getHealthStatus(int patientId) {
+		return diagnosisReportlist.stream().filter(diagnosisEntity -> diagnosisEntity.getPatientId() == patientId)
+				.findAny().orElse(null);
+	}
+
+	private void addToDiagnosis(Diagnosis diagnosis) {
+		diagnosisReportlist.add(diagnosis);
+	}
+
+}

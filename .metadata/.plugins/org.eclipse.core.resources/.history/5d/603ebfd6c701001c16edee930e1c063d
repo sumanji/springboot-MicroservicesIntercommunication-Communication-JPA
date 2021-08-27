@@ -1,0 +1,12 @@
+package com.example.demo.entity;
+
+public class Patient {
+	
+	private int patientId;
+    private String patientName;
+    private String patientAge;
+    
+    
+    
+
+}

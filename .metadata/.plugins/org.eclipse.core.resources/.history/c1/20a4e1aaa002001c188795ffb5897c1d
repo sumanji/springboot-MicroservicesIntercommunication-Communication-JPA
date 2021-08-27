@@ -1,0 +1,31 @@
+package com.example.demo.entity;
+
+
+public class Patient {
+	
+	private int patientId;
+    private String patientName;
+    private String patientAge;
+	public int getPatientId() {
+		return patientId;
+	}
+	public void setPatientId(int patientId) {
+		this.patientId = patientId;
+	}
+	public String getPatientName() {
+		return patientName;
+	}
+	public void setPatientName(String patientName) {
+		this.patientName = patientName;
+	}
+	public String getPatientAge() {
+		return patientAge;
+	}
+	public void setPatientAge(String patientAge) {
+		this.patientAge = patientAge;
+	}
+    
+    
+    
+
+}

@@ -1,0 +1,17 @@
+
+<table>
+    <th>
+      <tr>
+        <td>Id</td>
+        <td>Name</td>
+        <td>Age</td>
+      </tr>
+      <tr *ngFor="let patient of patientList">
+        <td><a routerLink="/patient/{{patient.patientId}}"> {{patient.patientId}}</a>     
+        </td>
+        <td>{{patient.patientName}}</td>
+        <td>{{patient.patientAge}}</td>
+      </tr>
+    </th>
+    
+    </table>

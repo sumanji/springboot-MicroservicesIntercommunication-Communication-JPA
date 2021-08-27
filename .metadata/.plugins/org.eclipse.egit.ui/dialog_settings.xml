@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<list key="EGit.KnownHosts">
+		<item value="git.eclipse.org"/>
+		<item value="github.com"/>
+		<item value="bitbucket.org"/>
+	</list>
+	<list key="RepositorySelectionPage.UsedUris">
+		<item value="https://github.com/sumanji/springboot-MicroservicesIntercommunication-Communication-JPA.git"/>
+	</list>
+	<section name="org.eclipse.egit.ui.internal.staging.StagingView">
+		<item key="MAIN_SASH_FORM_ORIENTATION_VERTICAL" value="true"/>
+		<item key="HORIZONTAL_SASH_FORM_WEIGHT" value="500,500"/>
+		<item key="STAGING_SASH_FORM_WEIGHT" value="500,500"/>
+		<item key="sortItemState" value="false"/>
+	</section>
+	<section name="GitCommitMessageComponent">
+		<list key="C:\Users\Suman\Desktop\microservice\springboot-MicroservicesIntercommunication-Communication-JPA\.git">
+			<item value="false"/>
+			<item value="Suman &lt;Suman@LAPTOP-N70KSQ25&gt;"/>
+			<item value="initial commit"/>
+			<item value="Suman &lt;Suman@LAPTOP-N70KSQ25&gt;"/>
+			<item value="517bfcc71b0449c50d81b7321030039a452a09a8"/>
+			<item value="0"/>
+			<item value="false"/>
+		</list>
+		<list key="C:\Users\Suman\git\springboot-MicroservicesIntercommunication-Communication-JPA\.git">
+			<item value="false"/>
+			<item value="Suman &lt;Suman@LAPTOP-N70KSQ25&gt;"/>
+			<item value="# WARNING: head commit changed in the meantime&#x0D;&#x0A;&#x0D;&#x0A;test"/>
+			<item value="Suman &lt;Suman@LAPTOP-N70KSQ25&gt;"/>
+			<item value="ffd303871bddc2b771dfc9855c2976061b5d1c8e"/>
+			<item value="0"/>
+			<item value="false"/>
+		</list>
+	</section>
+</section>

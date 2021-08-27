@@ -1,0 +1,37 @@
+package com.example.demo.service;
+
+import java.util.List;
+import java.util.Optional;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import com.example.demo.dao.PatientDAO;
+import com.example.demo.entity.Patient;
+
+@Service
+public class Patientservice {
+
+	@Autowired
+	PatientDAO patientDAO;
+
+	public int savePatient(Patient patient) {
+		return patientDAO.save(patient).getPatientId();
+
+	}
+
+	public List<Patient> getAllPatient() {
+        return patientDAO.findAll();
+	}
+	
+	public Patient getPatientById(int patientId) {
+        Optional<Patient> patient=patientDAO.findById(patientId);
+        if(patient.isPresent()) {
+        	return patient.get();
+        }
+        else {
+        	System.out.println("no patinet found with ID "+patientId);
+        	return null;
+        }
+	}
+}

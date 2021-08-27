@@ -1,0 +1,8 @@
+package com.example.demo.communicator;
+
+import org.springframework.cloud.openfeign.FeignClient;
+
+@FeignClient(name="diagnosis")
+public interface IDiagnosis {
+
+}

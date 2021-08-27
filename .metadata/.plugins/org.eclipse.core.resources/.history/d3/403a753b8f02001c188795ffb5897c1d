@@ -1,0 +1,23 @@
+package com.example.demo.controller;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.core.SpringVersion;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PathVariable;
+import org.springframework.web.bind.annotation.RestController;
+
+import com.example.demo.communicator.IDiagnosis;
+
+@RestController
+public class PatientController {
+
+	@Autowired
+	IDiagnosis diagnosis;
+	
+
+	@GetMapping("/{patientId}/patientReport")
+	public String getPatinetReport(@PathVariable("patientId") String patientId) {
+		System.out.println("Spring version "+SpringVersion.getVersion());
+		return diagnosis.getPatientHealthStatus(patientId);
+	}
+}
